@@ -1,0 +1,108 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-page" class="page">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="login-username">Username</label>
+            <input type="text" id="login-username" required>
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" required>
+            <button type="submit">Login</button>
+            <p>Don't have an account? <a href="#" id="to-register">Register here</a></p>
+        </form>
+    </div>
+
+    <div id="register-page" class="page">
+        <h2>Register</h2>
+        <form id="register-form">
+            <label for="register-username">Username</label>
+            <input type="text" id="register-username" required>
+            <label for="register-password">Password</label>
+            <input type="password" id="register-password" required>
+            <button type="submit">Register</button>
+            <p>Already have an account? <a href="#" id="to-login">Login here</a></p>
+        </form>
+    </div>
+
+    <div id="todo-page" class="page">
+        <h2>To-Do List</h2>
+        <web id="todo-form">
+            <label for="task">Task</label>
+            <input type="text" id="task" required>
+            <label for="category">Category</label>
+            <input type="text" id="category" required>
+            <label for="date">Due Date</label>
+            <input type="date" id="due-date" required>
+            <button type="reset">Add Task</button>
+        </web>
+        <ul id="task-list"></ul>
+        <button id="logout">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ -->
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-page" class="page">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="login-username">Username</label>
+            <input type="text" id="login-username" required>
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" required>
+            <button type="submit" id="loged-in" onclick="ndryshoString">Login</button>
+            <p>Don't have an account? <a href="#" id="to-register">Register here</a></p>
+        </form>
+    </div>
+
+    <div id="register-page" class="page">
+        <h2>Register</h2>
+        <form id="register-form">
+            <label for="register-username">Username</label>
+            <input type="text" id="register-username" required>
+            <label for="register-password">Password</label>
+            <input type="password" id="register-password" required>
+            <button type="submit">Register</button>
+            <p>Already have an account? <a href="#" id="to-login">Login here</a></p>
+        </form>
+    </div>
+
+    <div id="todo-page" class="page">
+        <h2>To-Do List</h2>
+        <form id="todo-form">
+            <label for="task">Task Title:</Title></label>
+            <input type="text" id="task" required>
+            <label for="category">Category:</label>
+            <input type="text" id="category" required>
+            <br></br>
+            <label for="description">Description:</label>
+            <input type="text" id="description" required>
+            <label for="completionDate">Completion Date:</label>
+            <input type="date" id="completionDate" required>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="task-list"></ul>
+        <button id="logout">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
